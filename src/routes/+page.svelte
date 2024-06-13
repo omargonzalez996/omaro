@@ -1,2 +1,10 @@
-<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Navbar from '../components/Navbar.svelte';
+	import Loginform from '../components/Loginform.svelte';
+</script>
+
+<Navbar />
+
+<div class="flex justify-center align-middle items-center bg-slate-200 h-lvh">
+	<Loginform />
+</div>
